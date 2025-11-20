@@ -17,6 +17,8 @@ locals {
 # Data source for availability zones in the specified region
 data "aws_availability_zones" "available" {
   state = "available"
+
+  # Module 2 Add postcondition to ensure enough AZs are available
 }
 
 # VPC for the application
@@ -158,6 +160,10 @@ resource "aws_instance" "web" {
   tags = merge(local.common_tags, {
     Name = "${local.resource_prefix}-web-server"
   })
+
+  # Module 2: Add precondition to ensure instance_type is x86_64
+  # Module 2: Add precondition to ensure AMI architecture is x86_64
+  # Module 2: Add postcondition to ensure instance has a public IP
 }
 
 # S3 bucket for static assets
