@@ -1,5 +1,5 @@
 resource "random_string" "testing" {
-  length  = 26
+  length  = 16
   special = true
 
   lifecycle {
