@@ -1,6 +1,6 @@
 resource "random_string" "testing" {
-  length  = 26
-  special = true
+  length  = 16
+  special = false
 
 }
 
