@@ -2,7 +2,7 @@
 
 Exercise files to accompany my Pluralsight course of the same name. You can always find the latest version at [https://github.com/ned1313/terraform-validation-and-testing](https://github.com/ned1313/terraform-validation-and-testing)
 
-Welcome to **Terraform - Validation and Testing**.  These exercise files are meant to accompany my course on [Pluralsight](http://www.pluralsight.com/courses/terraform-modules).  The course was developed using version 1.12.2 of Terraform. This is the seventh course in the Terraform Learning Path on Pluralsight. I am assuming you have taken the **Getting Started - Terraform** course or you have equivalent knowledge.
+Welcome to **Terraform - Validation and Testing**.  These exercise files are meant to accompany my course on [Pluralsight](http://www.pluralsight.com/courses/terraform-validation-testing).  The course was developed using version 1.13.4 of Terraform. This is the seventh course in the Terraform Learning Path on Pluralsight. I am assuming you have taken the **Getting Started - Terraform** course or you have equivalent knowledge.
 
 ## Using the files
 
