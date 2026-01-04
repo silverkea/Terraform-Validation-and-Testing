@@ -37,4 +37,4 @@ override.tf.json
 terraform.rc
 
 # Ignore the taco-wagon directory
-taco-wagon/
+# taco-wagon/
